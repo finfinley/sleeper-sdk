@@ -28,7 +28,7 @@
     "sdk",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Alex Finley <your.email@example.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.8",
@@ -51,10 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/sleeper-sdk.git"
+    "url": "git+https://github.com/finfinley/sleeper-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/sleeper-sdk/issues"
+    "url": "https://github.com/finfinley/sleeper-sdk/issues"
   },
-  "homepage": "https://github.com/yourusername/sleeper-sdk#readme"
+  "homepage": "https://github.com/finfinley/sleeper-sdk#readme"
 }

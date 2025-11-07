@@ -345,8 +345,8 @@ MIT License - see LICENSE file for details.
 ## Support
 
 - 📚 [Sleeper API Documentation](https://docs.sleeper.app/)
-- 🐛 [Report Issues](https://github.com/yourusername/sleeper-sdk/issues)
-- 💬 [Discussions](https://github.com/yourusername/sleeper-sdk/discussions)
+- 🐛 [Report Issues](https://github.com/finfinley/sleeper-sdk/issues)
+- 💬 [Discussions](https://github.com/finfinley/sleeper-sdk/discussions)
 
 ## Changelog
 
