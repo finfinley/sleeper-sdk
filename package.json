@@ -1,23 +1,19 @@
 {
   "name": "sleeper-sdk",
   "version": "1.0.0",
-  "description": "TypeScript SDK for the Sleeper Fantasy Football API",
+  "description": "A TypeScript SDK for the Sleeper Fantasy Football API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc --watch",
-    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run clean && npm run build",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix",
-    "format": "prettier --write src/**/*.ts",
-    "clean": "rimraf dist",
-    "prepublishOnly": "npm run clean && npm run build"
+    "lint": "eslint src/**/*.ts"
   },
   "keywords": [
     "sleeper",
@@ -28,7 +24,7 @@
     "sdk",
     "typescript"
   ],
-  "author": "Alex Finley <your.email@example.com>",
+  "author": "Alex Finley <alexfin@outlook.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.8",
@@ -56,5 +52,8 @@
   "bugs": {
     "url": "https://github.com/finfinley/sleeper-sdk/issues"
   },
-  "homepage": "https://github.com/finfinley/sleeper-sdk#readme"
+  "homepage": "https://github.com/finfinley/sleeper-sdk#readme",
+  "engines": {
+    "node": ">=14"
+  }
 }
